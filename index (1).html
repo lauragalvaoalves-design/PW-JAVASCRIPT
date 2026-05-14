@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício JavaScript - Select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2 style="text-align: center;">Categorias de Produtos</h2> 
+
+<div class="container">
+    <form id="productForm">
+        <label for="category">Escolha uma categoria:</label>
+        <select id="category">
+            <option value=""> Selecione uma opção </option>
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="roupas">Roupas</option>
+            <option value="alimentos">Alimentos</option>
+        </select>
+
+        <button type="button" onclick="processarEscolha()">Ver Detalhes</button>
+    </form>
+
+    <div id="resultado" class="message"></div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>

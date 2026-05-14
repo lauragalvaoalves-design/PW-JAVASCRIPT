@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e12790;
+    display: flex;
+    flex-direction: column; /* Alinha o título e o quadrado um em cima do outro */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 10px; /* Dá um pequeno espaço entre o título e o quadrado */
+}
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #f36aa5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d73ed9;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+    min-height: 40px;
+}
+
+h2 {
+    color: #f7f3f2; 
+    font-size: 32px; 
+    text-align: center;
+    margin-bottom: 15px;
+}
